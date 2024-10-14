@@ -255,7 +255,9 @@ label {
 
 #boxes {
   display: flex;
+  flex-direction: row;
   gap: 20px;
   padding: 32px;
   background-color: #f6f6fe;
+  flex-wrap: wrap;
 }
